@@ -18,7 +18,7 @@ CSS Style Sheets DEFINITIONS
 ----------------------------
   <style>
   .red-text {                    <------ Class allways starts with "."
-    color: red !important ;       <------ !important = Do not override this Attribute e.g with in line declaration or other methods 
+    color: red !important;       <------ !important = Do not override this Attribute e.g with in line declaration or other methods 
   }
   body {           <------ BODY = Every HTML page HAS one ! All elements inside the Body ( h1 , p ,..) inherite the body's attributes
     background-color: black;
@@ -113,4 +113,14 @@ OR
   padding: 20px 40px 20px 40px;
 OR
   margin: 20px 40px 20px 40px;
+  
+HEX code Colouring
+------------------
+  Hex code follows the red-green-blue, or rgb format. The first two digits of hex code represent the amount of red in the color  . The third and fourth digit represent the amount of green. The fifth and sixth represent the amount of blue.
+  So to get the absolute brightest red, you would just use F for the first and second digits (the highest possible value) and 0   for the third, fourth, fifth and sixth digits (the lowest possible value).
+  Examples : 
+  body {
+    background-color: #FFFFFF; = BLACK , #000000 = WHITE , #FF0000 = RED , #00FF00 = GREEN , #0000FF = BLUE
+  }
+
 
