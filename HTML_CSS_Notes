@@ -17,8 +17,8 @@ External Links to Font Families
 CSS Style Sheets DEFINITIONS
 ----------------------------
   <style>
-  .red-text {      <------ Class allways starts with "."
-    color: red;
+  .red-text {                    <------ Class allways starts with "."
+    color: red !important ;       <------ !important = Do not override this Attribute e.g with in line declaration or other methods 
   }
   body {           <------ BODY = Every HTML page HAS one ! All elements inside the Body ( h1 , p ,..) inherite the body's attributes
     background-color: black;
