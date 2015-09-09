@@ -4,11 +4,11 @@ Comments
 
 Headers
 -------
-  <h1 bla bla bla </h2>  , h1 to h8 , 1 = Bigger to 8 = Smaller
+  <h1> bla bla bla </h1>  , h1 to h8 , 1 = Bigger to 8 = Smaller
 
 Paragraphs
 ----------
-  <p bla bla bla </p>
+  <p> bla bla bla </p>
 
 External Links to Font Families
 -------------------------------
@@ -20,7 +20,7 @@ CSS Style Sheets DEFINITIONS
   .red-text {      <------ Class allways starts with "."
     color: red;
   }
-  body {           <------ BODY = Every HTML page HAS one !
+  body {           <------ BODY = Every HTML page HAS one ! All elements inside the Body ( h1 , p ,..) inherite the body's attributes
     background-color: black;
   }
   h2 {                                 <------ Properties directly assigned to an entity as a whole 
