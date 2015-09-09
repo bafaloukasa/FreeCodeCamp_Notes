@@ -1,12 +1,17 @@
-Comments 
+Comments
+-------
   Start <!--   , End -->
 Headers
+-------
   <h1 bla bla bla </h2>  , h1 to h8 , 1 = Bigger to 8 = Smaller
-Paragraphs 
+Paragraphs
+----------
   <p bla bla bla </p>
 External Links to Font Families
+-------------------------------
   <link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 CSS Style Sheets DEFINITIONS
+----------------------------
   <style>
   .red-text {      <------ Class allways starts with "."
     color: red;
@@ -34,7 +39,21 @@ CSS Style Sheets DEFINITIONS
 </style>
 
 CSS Style Sheets USAGE
+----------------------
   <h2 class="red-text">CatPhotoApp</h2>
   <img class="smaller-image thick-green-border" src="https://bit.ly/fcc-relaxing-cat"> <------ many classes , separeted by space
   
-  
+UnOrdered Lists UL
+------------------
+  <ul>
+    <li>blue</li>
+    <li>green</li>
+    <li>red</li>
+  </ul>
+Ordered Lists OL
+---------------
+  <ol>
+    <li>blue</li>
+    <li>green</li>
+    <li>red</li>
+  </ol>
