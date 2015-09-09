@@ -1,0 +1,40 @@
+Comments 
+  Start <!--   , End -->
+Headers
+  <h1 bla bla bla </h2>  , h1 to h8 , 1 = Bigger to 8 = Smaller
+Paragraphs 
+  <p bla bla bla </p>
+External Links to Font Families
+  <link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+CSS Style Sheets DEFINITIONS
+  <style>
+  .red-text {      <------ Class allways starts with "."
+    color: red;
+  }
+
+  h2 {                                 <------ Properties directly assigned to an entity as a whole 
+    font-family: Lobster, Monospace;
+  }
+
+  p {                                  <------ Properties directly assigned to an entity as a whole 
+    font-size: 16px;                   <------ eg every <p> = Paragraph will be like this 
+    font-family: Monospace;
+  }
+
+  .thick-green-border {            <------ Class allways starts with "."
+    border-color: green;
+    border-width: 10px;
+    border-style: solid;
+    border-radius:10px;
+  }
+
+  .smaller-image {                 <------ Class allways starts with "."
+    width: 100px;
+  }
+</style>
+
+CSS Style Sheets USAGE
+  <h2 class="red-text">CatPhotoApp</h2>
+  <img class="smaller-image thick-green-border" src="https://bit.ly/fcc-relaxing-cat"> <------ many classes , separeted by space
+  
+  
