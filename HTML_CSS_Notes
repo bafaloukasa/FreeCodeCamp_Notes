@@ -66,5 +66,14 @@ Forms ( Request Input , store , Submit)
   
 Radio Buttons
 ------------
-  <label><input type="radio" name="indoor-outdoor"> Indoor</label>  <------ SOS SAME Name , Different Text
+  <label><input type="radio" name="indoor-outdoor"> checked Indoor</label>  <------ SOS SAME Name , Different Text
   <label><input type="radio" name="indoor-outdoor"> Outdoor</label> <------ SOS SAME Name , Different Text
+Check Boxes
+-----------
+<label><input type="checkbox" name="personality"> checked Adorable </label>   <------ SOS SAME Name , Different Text
+<label><input type="checkbox" name="personality"> Loving </label>     <------ SOS SAME Name , Different Text
+<label><input type="checkbox" name="personality"> Hating  </label>    <------ SOS SAME Name , Different Text
+
+Divisions                 <------ Format selected areas massively 
+---------
+<div class="gray-background"> a lot of things e.g <p> , <ol> , <ul>   </div>
