@@ -20,7 +20,9 @@ CSS Style Sheets DEFINITIONS
   .red-text {      <------ Class allways starts with "."
     color: red;
   }
-
+  body {           <------ BODY = Every HTML page HAS one !
+    background-color: black;
+  }
   h2 {                                 <------ Properties directly assigned to an entity as a whole 
     font-family: Lobster, Monospace;
   }
@@ -93,4 +95,22 @@ Usage o ID eg in CSS Style Sheet
   #cat-photo-form { background-color: green; }           <------ IDs  allways starts with "#"
 </style>
 
+Margin , Padding
+----------------
+<style>
+.green-box {
+    background-color: green;
+    padding: 20px;
+    margin: 20px;
+  }
+</style>
+OR
+    padding-top: 40px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+OR
+  padding: 20px 40px 20px 40px;
+OR
+  margin: 20px 40px 20px 40px;
 
