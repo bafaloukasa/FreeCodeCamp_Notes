@@ -122,5 +122,6 @@ HEX code Colouring
   body {
     background-color: #FFFFFF; = BLACK , #000000 = WHITE , #FF0000 = RED , #00FF00 = GREEN , #0000FF = BLUE
   }
-
+OR 
+  rgb(0, 0, 0)=BLACK  (ranges o to 255 for each)  , rgb(255, 255, 255)=WHITE , rgb(255,0,0)=RED
 
