@@ -57,3 +57,14 @@ Ordered Lists OL
     <li>green</li>
     <li>red</li>
   </ol>
+Forms ( Request Input , store , Submit)
+---------------------------------------
+  <form action="/submit-cat-photo">
+    <input type="text" placeholder="cat photo URL" required>
+    <button type="submit">Submit</button>
+  </form>
+  
+Radio Buttons
+------------
+  <label><input type="radio" name="indoor-outdoor"> Indoor</label>  <------ SOS SAME Name , Different Text
+  <label><input type="radio" name="indoor-outdoor"> Outdoor</label> <------ SOS SAME Name , Different Text
