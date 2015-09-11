@@ -127,12 +127,26 @@ OR
 
 .
 
-Responsive Design - Bootstrap 
-============================
+Responsive Design - Bootstrap + Awesome Fonts e.g. Thumbs UP
+============================================================
 
-Include link as first step in HTML Section
+Include links as first step in HTML Section
 ------------------------------------------
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/> 
+  	<head>
+	
+    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+		<link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+		
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+	</head>
 
 Use the Class "img-responsive" to automatically arrange image size according to Device available space
 ------------------------------------------------------------------------------------------------------
