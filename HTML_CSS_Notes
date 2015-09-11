@@ -126,3 +126,29 @@ OR
   rgb(0, 0, 0)=BLACK  (ranges o to 255 for each)  , rgb(255, 255, 255)=WHITE , rgb(255,0,0)=RED
 
 .
+
+Responsive Design - Bootstrap 
+============================
+
+Include link as first step in HTML Section
+------------------------------------------
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/> 
+
+Use the Class "img-responsive" to automatically arrange image size according to Device available space
+------------------------------------------------------------------------------------------------------
+  <img src="http://bit.ly/fcc-running-cats" class="img-responsive">
+  
+div container-fluid
+-------------------
+  <div class="container-fluid">
+
+Bootstrap Button
+----------------
+  <button type="button" class = "btn">Like</button>
+
+Text Center Class
+-----------------
+  <h2 class="red-text text-center">CatPhotoApp</h2>
+
+
+
