@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    
+   	 	<link href="css/bootstrap.min.css" rel="stylesheet">
+
+	
+    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css"></script>
+
+		<link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+		
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		
+
+<!-- //cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css
+//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js -->
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+
+	</head>
+	
+<style>
+.btn {
+  background: #333;
+  padding: 10px;
+  color:#fff;
+  width:150px;
+  font-family: Calibri;
+  text-align: center;
+  border-radius: 8px;
+  margin:0 auto;
+  cursor: pointer;
+}
+</style>
+<body>
+
+<script>
+$(".btn").on("click",function(){
+  $(this).addClass("animated shake btn-primary");
+}); 
+</script>
+
+<div class="btn">
+  I will shake on click.
+</div>
+
+</body>
+</html>
